@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif; 
+    box-sizing: border-box; 
+}
+
+.hero {
+    height: 100vh;
+    width: 100%; 
+    background-image: url('messi.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: center;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer; 
+    text-align: center;
+}
+
+span {
+    color: #f9400d; 
+    display: inline;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block; 
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #f9400d; 
+    transition: .4s; 
+}
+
+.content {
+    position: absolute; 
+    top: 50%; 
+    left: 8%;
+    transform: translateY(-50%); 
+}
+
+h1 {
+    color: white; 
+    margin: 20px 0px 20px; 
+    font-size: 75px; 
+}
+
+h3 {
+    color: white; 
+    font-size: 25px; 
+    margin-bottom: 50px;
+}
+
+h4 {
+    color: #fcfc; 
+    letter-spacing: 2px;
+    font-size: 20px; 
+}
+
+.newsletter form{
+    width: 420px; 
+    max-width: 100%; 
+    position: relative; 
+}
+
+.newsletter form input:first-child {
+    display: inline-block; 
+    padding: 14px 130px 14px 15px; 
+    border: 2px solid #f9400d;
+    border-radius: 30px;
+    outline: none;  
+    width: 100%;
+}
+
+.newsletter form input:first-child::placeholder {
+    color: red; 
+}
+
+.newsletter form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none; 
+    padding: 5px 20px;
+    border-radius: 30px; 
+    background-color: #f9400d; 
+    color: white; 
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 10px;
+    right: 6px; 
+}
+
+ input:focus {
+    color: #ff0000;
+}
+
+.image {
+    width: auto;
+    height: auto; 
+    max-width: 330px; 
+    max-height: 400px; 
+    position: relative; 
+    top: 10px; 
+}
+
+.about {
+    width: 100%; 
+    height: 94vh; 
+    padding: 100px 0px; 
+    background: #191919;
+}
+
+.about-text {
+    width: 500px; 
+}
+
+.main {
+    width: 1130px; 
+    max-width: 95%;
+    margin: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2 {
+    color: white; 
+    font-size: 75px;
+    text-transform: capitalize; 
+    margin-bottom: 20px; 
+}
+
+.about-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p {
+    color: #fcfc; 
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px; 
+    margin-bottom: 45px;
+}
+
+button {
+    background-color: #f9400d;
+    color: white; 
+    text-decoration: none;
+    border: 2px solid transparent; 
+    font-weight: bold; 
+    padding: 13px 30px; 
+    transition: .4s; 
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid #f9400d; 
+    cursor: pointer;
+    top: -5px;
+}
+
+.ed {
+    width: 100%; 
+    height: 90vh; 
+    padding: 100px 0px; 
+    background: rgb(39, 36, 36);
+}
+
+.main2 ul {
+    list-style-type: none;
+}
+
+.main2 h2{
+    display: flex; 
+    justify-content: center;
+    color: white; 
+    font-size: 75px; 
+}
+
+.main2 ul li img {
+    width: auto;
+    height: auto; 
+    max-width: 200px; 
+    max-height: 200px; 
+    padding-bottom: 30px;
+    padding-top: 40px;
+    margin-left: 180px; 
+}
+
+.FMM {
+    border-radius: 500px; 
+}
+
+.wave {
+    animation-name: wave-animation;  
+    animation-duration: 2s;        
+    animation-iteration-count: infinite;  
+    transform-origin: 70% 70%;       
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  
+    100% { transform: rotate( 0.0deg) }
+  }
+
+  .write:hover {
+    translate: 60px;
+  }
+  
+.ed-details-FMM {
+    color: white;
+    display: inline-block;
+    position: relative; 
+    left: 400px;
+    top: -363px; 
+}
+
+.ed-details-FMM li {
+    list-style-type: circle;
+}
+
+.ed-details-Waterloo {
+    color: white; 
+    position: relative; 
+    display: inline-block; 
+    left: -88px;
+    top: -200px; 
+}
+
+.ed-details-Waterloo li {
+    list-style-type: circle;
+}
+
+ul a:hover {
+    color: rgb(255, 0, 0); 
+    transition: .4s; 
+}
+
+.work-exp {
+    width: 100%; 
+    height: 100vh; 
+    padding: 100px 0px; 
+    background: #778899; 
+}
+
+.work-exp h2 {
+    text-align: center;
+    color: white;
+    font-size: 75px;
+}
+
+.exp {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    height: 480px; 
+    width: 480px; 
+    padding: 20px 35px; 
+    background: #191919; 
+    border-radius: 20px; 
+    margin: 15px; 
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color: aliceblue;
+}
+
+.box img{
+    padding-bottom: 10px;
+    width: 380px; 
+    border-radius: 80px; 
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+.res {
+    width: 100%; 
+    height: 60vh; 
+    padding: 100px 0px; 
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e); 
+}
+
+.download {
+    text-align: center; 
+    color: white; 
+}
+
+.download h2 {
+    font-size: 75px; 
+    margin-bottom: 30px;
+}
+
+.download p {
+    font-size: 30px; 
+    margin-bottom: 30px;
+}
+
+.download button {
+    border-radius: 30px; 
+    border: 4px solid seagreen; 
+}
+
+.contact {
+    width: 100%; 
+    height: 60vh; 
+    padding: 100px 0px; 
+    background: linear-gradient(to right, #8360c3, #2ebf91);
+    text-align: center; 
+}
+
+.linkedin, .github {
+    display: inline-flex;
+    line-height: 50px;
+    background-color: #f9400d;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 70%;
+}
+
+.contact i {
+    color: black; 
+    scale: 1.5;
+}
+
+.contact h2 {
+    font-size: 75px;
+    color: white; 
+}
+
+.contact p {
+    color: white; 
+    font-size: 25px; 
+}
